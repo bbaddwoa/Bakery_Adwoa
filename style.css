@@ -1,0 +1,103 @@
+* {
+  background-color: rgb(250, 247, 247);
+}
+.brand {
+  font-size: 36px;
+  font-weight: 900px;
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.pies {
+  background-color: crimson;
+  width: 80px;
+  list-style-type: none;
+}
+.muffins {
+  background-color: crimson;
+  width: 80px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.cookies {
+  background-color: crimson;
+  width: 80px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.cakes {
+  background-color: crimson;
+  width: 80px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.bread {
+  background-color: crimson;
+  width: 80px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.flexbox li {
+  background-color: crimson;
+  width: 100px;
+  height: 60px;
+  font-weight: 900px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-style: unset;
+  margin-bottom: 9px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+.flexbox {
+  flex-flow: column;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 5;
+  margin-right: 10%;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  margin-right: 20%;
+}
+.flexbox ul {
+  padding: 0%;
+}
+.expandflexbox {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.footers {
+  background-color: black;
+  font-size: 14px;
+  color: azure;
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
